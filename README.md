@@ -1,7 +1,7 @@
 等长贝塞尔曲线的C++实现
 =========
 ## 简略说明
-在本次的内容中实现了等长的贝塞尔曲线和贝塞尔曲线的拟合方式，主要是以C++的形式进行。
+在本次的内容中实现了等长的贝塞尔曲线和贝塞尔曲线的拟合方式，主要是以C++的形式进行。本项目是对Philip J. Schneider的C代码的C++实现版本，旨在能够使更多的人更方便的使用。原始的C代码在 http://graphicsgems.org/ ，同样可以在GitHub中找到：https://github.com/erich666/GraphicsGems\
 在本仓库中中实现了三个工具类和一个属性类：
 ### 属性类
 >属性类为
@@ -43,3 +43,7 @@ struct Point{
 
 ### 平滑结果
 ![image](img/smooth.png)
+
+## 引用材料
+Graphics Gems
+http://www.realtimerendering.com/resources/GraphicsGems/gems.html
